@@ -11,40 +11,45 @@ body {
   margin-right: auto;
 }
 
-#nav {
+nav#nav {
   padding: 1rem;
   background-color: rgba(0,0,0,0.2);
   text-align: right;
 }
 
-#nav h1 {
+nav#nav h1 {
   float: left;
   margin: 0;
   font-size: 1rem;
 }
 
-#nav ul,
-#nav li {
+nav#nav ul,
+nav#nav li {
   display: inline-block;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-#nav ul a,
-#nav ul strong {
+nav#nav ul a,
+nav#nav ul strong {
   display: inline-block;
   margin-left: 0.5rem;
 }
 
-#header {
+header#header {
   padding: 4rem 0;
   background-color: rgba(0,0,0,0.05);
 }
 
-#header h1 {
+header#header h1 {
   margin: 0;
   font-family: Futura, Trebuchet MS, Arial, sans-serif;
   font-size: 3rem;
   font-style: italic;
+}
+
+nav#location {
+  padding: 1rem 0;
+  background-color: rgba(0,0,0,0.05);
 }
